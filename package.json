@@ -1,0 +1,31 @@
+{
+  "name": "oauth2-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:provider": "npx nodemon ./provider/app.js",
+    "start:consumer": "npx nodemon ./consumer/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@poziworld/oauth2orize": "^1.11.1",
+    "connect-ensure-login": "^0.1.1",
+    "connect-redis": "^7.1.1",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "oauth2orize": "^1.12.0",
+    "passport": "^0.7.0",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "passport-oauth": "^1.0.0",
+    "passport-oauth2-client-password": "^0.1.2",
+    "yup": "^1.4.0"
+  }
+}
